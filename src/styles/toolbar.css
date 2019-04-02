@@ -1,0 +1,40 @@
+.toolbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 1rem;
+	margin-bottom: 0.5rem;
+	border-bottom: 3px solid #2196f3;
+	background-color: #fff;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.toolbar__logo {
+	color: #2196f3;
+}
+
+.toolbar__link {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.toolbar__link i {
+	margin-right: 0.5rem;
+}
+
+.toolbar__email {
+	background-color: #f3f3f3;
+	color: inherit;
+	margin-right: 0.5rem;
+}
+
+.toolbar__github {
+	background-color: #212121;
+	color: #fff;
+}

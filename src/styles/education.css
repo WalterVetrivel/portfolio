@@ -1,0 +1,73 @@
+.education-container {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    border-top: 3px solid #4caf50;
+    margin: 0.5rem;
+}
+
+.education-container h2 {
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    color: #4caf50;
+    border-bottom: 1px solid #4caf50;
+}
+
+.education-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education {
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.education>* {
+    margin-bottom: .5rem;
+}
+
+.education__qualification {
+	color: #4caf50;
+}
+
+.education__year {
+    color: #474747;
+    display: block;
+}
+
+.education__year span {
+    color: #03a9f4;
+}
+
+.education__qualification i {
+    margin-right: 0.5rem;
+}
+
+.education__institution {
+    font-style: italic;
+    color: #03a9f4;
+}
+
+.education__institution i {
+    margin-right: .5rem;
+}
+
+.education__score {
+    font-weight: 700;
+}
+
+.education__score span {
+    padding: 4px .5rem;
+    background-color: #eee;
+    color: #4caf50;
+    border-radius: 4px;
+}
+
+@media (min-width: 1080px) {
+    .education {
+        width: 50%;
+    }
+}
