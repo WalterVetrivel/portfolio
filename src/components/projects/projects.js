@@ -6,7 +6,7 @@ const projects = props => (
 		<h2>Projects</h2>
 		<div className="projects-list">
 			{props.projects.map(project => (
-				<Project project={project} />
+				<Project key={project.title} project={project} />
 			))}
 		</div>
 	</div>

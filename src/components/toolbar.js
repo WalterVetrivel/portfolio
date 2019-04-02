@@ -5,7 +5,13 @@ const toolbar = props => (
 		<div className="toolbar__logo">
 			<i className="fas fa-home" />
 		</div>
-		<div className="toolbar__links">
+		<button className="toolbar__toggle" onClick={props.onClick}>
+			<span />
+			<span />
+			<span />
+		</button>
+		<div
+			className={props.showLinks ? `toolbar__links--show` : `toolbar__links`}>
 			<a
 				className="toolbar__link toolbar__email"
 				href={`mailto:${props.bio.email}`}

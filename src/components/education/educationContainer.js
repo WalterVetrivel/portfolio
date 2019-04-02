@@ -6,7 +6,7 @@ const educationContainer = props => (
 		<h2>Education</h2>
 		<div className="education-list">
 			{props.education.map(education => (
-				<Education education={education} />
+				<Education key={education.qualification} education={education} />
 			))}
 		</div>
 	</div>

@@ -6,7 +6,7 @@ const skills = props => (
 		<div className="skills-list">
 			{props.skills.map(skill => {
 				return (
-					<div className="skill">
+					<div className="skill" key={skill.category}>
 						<h4 className="skill__category">
 							<i className={skill.icon} />
 							{skill.category}
