@@ -60,6 +60,11 @@
 	color: #fff;
 	background-color: #f44336;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease-in-out;
+}
+
+.project__link:hover {
+	background-color: #ef5350;
 }
 
 @media (min-width: 720px) {
